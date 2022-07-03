@@ -6,6 +6,7 @@
   font-size: 60px;
   background-color: antiquewhite;
   text-decoration: none;
+  display: block;
 }
 
 .google-link:hover {

@@ -1,5 +1,6 @@
 import _ from "lodash";
 import "./style.css";
+import imageUrl from "../asset/image.png";
 
 const component = () => {
   const helloDiv = document.createElement("div");
@@ -19,5 +20,12 @@ const googleLink = () => {
   return link;
 };
 
+const imageComponent = () => {
+  const img = document.createElement("img");
+  img.src = imageUrl;
+  return img;
+};
+
 document.body.appendChild(component());
 document.body.appendChild(googleLink());
+document.body.appendChild(imageComponent());
