@@ -1,12 +1,19 @@
 * {
   text-align: center;
 }
+
+@font-face {
+  font-family: "Glorial";
+  src: url("../asset/GloriaHallelujah-Regular.ttf");
+}
+
 .google-link {
   color: green;
   font-size: 60px;
   background-color: antiquewhite;
   text-decoration: none;
   display: block;
+  font-family: Glorial;
 }
 
 .google-link:hover {
